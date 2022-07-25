@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+        <title>Hello!</title>
+    </head>
+    <body>
+        <img src="https://64.media.tumblr.com/30da59d39679b33826889752c3a142e7/9d92c27904dfef89-d8/s500x750/6bc6d10edfd7966fcf5959fa49c903a871f6eafb.png" alt="chica panda">
+        <br>
+        <form action="greet" method="post">
+            {% for message in get_flashed_messages() %}
+                <p>{{message}}</p>
+            {% endfor %}
+            <br>
+            <input type="text" name="name_input">
+            <br>
+            <input type="submit" value="SALUDAR" id="greet">
+        </form>
+    </body>
+</html>

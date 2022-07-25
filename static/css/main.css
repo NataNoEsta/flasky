@@ -1,0 +1,41 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+p{
+    color: white;
+    background-color: palevioletred;
+    display: inline-block;
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    margin: 20px;
+}
+img {
+    margin: 60px 0 30px 0;
+    width: 250px;
+    
+}
+input {
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family:'Lucida Sans', sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+}
+input:focus {
+    border: solid 5px #00ffce;
+    outline: none;
+}
+
+#greet {
+    background-color: palevioletred;
+    color: white;
+    width: 200px;
+}
+#greet:hover {
+    background-color: mediumvioletred;
+    cursor: pointer;
+}
