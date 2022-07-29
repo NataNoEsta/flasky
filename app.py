@@ -12,10 +12,4 @@ def index():
 def greet():
     name = request.form["name_input"]
     flash("Hola " + name.capitalize() + ", no molestes por favor! Besi!")
-    if len(name) > 10:
-        render_template("nomol.html")
     return render_template("index.html")
-
-@app.route("/nomol")
-def nomol():
-    return render_template("nomol.html")
