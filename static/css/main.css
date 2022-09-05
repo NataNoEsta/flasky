@@ -2,18 +2,10 @@ body {
     background-color: aquamarine;
     text-align: center;
 }
-div {
-    color: white;
-    display: inline-block;
-    padding: 5px;
-    font-family: "Georgia", serif;
-    font-style: italic;
-    font-size: 1.2em;
-    margin: 20px;
-}
+
 p{
     color: white;
-    display: inline-block;
+    display: block;
     padding: 5px;
     font-family: "Georgia", serif;
     font-style: italic;
