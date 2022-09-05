@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+    {% block title %} Bye bestie! {% endblock %}
+    {% block head %}
+        {{ super() }}
+        <style></style>
+    {% endblock %}
+    {% block body %}
+        {% block container %}
+            {{ super() }}   
+        {% endblock %}   
+        {% for message in get_flashed_messages() %}
+            <p>{{message}}</p>
+        {% endfor %}
+        
+    {% endblock %}
