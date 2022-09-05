@@ -15,10 +15,7 @@ def index():
 @app.route("/greet", methods=["POST", "GET"])
 def greet():
     name = request.form["name_input"]
-    if name == 'Diego'.lower():
-        flash("Hola " + name.capitalize() + ", te extraño...")
-    else:
-        flash("Hola " + name.capitalize() + saludos())
+    flash("Hola " + name.capitalize() + saludos())
     return render_template("byebestie.html")
 
 def saludos():
