@@ -1,4 +1,5 @@
 # flasky
 Test flask app
 
-https://noestoy.herokuapp.com/
+<img src="https://github.com/NataNoEsta/flasky/blob/master/flaskyapp.png" width=600px>
+http://noestoy.herokuapp.com
